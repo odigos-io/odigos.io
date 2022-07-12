@@ -4,79 +4,59 @@ linkTitle = "Odigos"
 
 +++
 
-{{< blocks/cover title="odigos" image_anchor="top" height="full" color="primary" >}}
+{{< blocks/cover title="Open Source Observability Control Plane" image_anchor="top" height="auto" color="blue" >}}
 <div class="mx-auto">
-	<h2 class="mb-5">Zero to full observability in minutes</h2>
+	<h2 class="mb-5">Get traces, metrics and logs - without any code changes </h2>
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+		Get Started <i class="fas fa-arrow-alt-circle-right ml-2"></i>
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
-		Download <i class="fab fa-github ml-2 "></i>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#">
+		Watch Demo <i class="fas fa-play ml-2 "></i>
 	</a>
-	<p class="lead mt-5">Porridge temperature assessment - in the cloud!</p>
-	{{< blocks/link-down color="info" >}}
 </div>
 {{< /blocks/cover >}}
 
 
-{{% blocks/lead color="primary" %}}
+<!-- {{% blocks/lead color="primary" %}}
 Goldydocs provides a single web UI providing visibility into porridge temperature, chair size, and bed softness metrics! You can even find out who's been eating **your** porridge.
 
 (Sadly, Goldydocs isn't a real project, but you can use this site as an example to create your own real websites with [Docsy](http://docsy.dev))
-{{% /blocks/lead %}}
+{{% /blocks/lead %}} -->
 
-{{< blocks/section color="dark" >}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
+{{< blocks/section color="primary" >}}
+{{% blocks/feature icon="fas fa-code" title="Automatic Instrumentation" %}}
+Odigos detects the programming language of your applications and apply automatic instrumentation accordingly.
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fab fa-github" title="Based on the best open source tools" %}}
+Odigos observability pipelines are based on OpenTelemetry and eBPF, a widely used open source observability technologies.
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fas fa-server" title="Forget about collectors" %}}
+Odigos scales the number of collectors based on the traffic of your applications. No need to manage complex collectors topology
 {{% /blocks/feature %}}
 
+
+{{% blocks/feature icon="fas fa-indent" title="No more YAMLs" %}}
+Use advanced features like tail-based sampling without the learning curve
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-clipboard-check" title="Best practices out of the box" %}}
+API keys saved as Kubernetes Secrets, minimal collector images, and many more.
+{{% /blocks/feature %}}
 
 {{< /blocks/section >}}
 
 
 {{< blocks/section >}}
 <div class="col">
-<h1 class="text-center">This is the second Section</h1>
+<h1 class="text-center">Choose the best tool for the task</h1>
+<div class="row">
+	<div>A</div>
+	<div>B</div>
 </div>
-
-{{< /blocks/section >}}
-
-
-
-{{< blocks/section >}}
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/GoHugoIO" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-
-{{< /blocks/section >}}
-
-{{< blocks/section >}}
-
-<div class="col-12">
-<h1 class="text-center">This is another Section</h1>
 </div>
 
 {{< /blocks/section >}}
