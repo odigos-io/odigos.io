@@ -10,6 +10,7 @@ menu:
 Welcome to the Odigos user guide! This guide shows you how to get started sending telemetry data such as traces, metrics and logs using Odigos.
 
 Odigos allows developers to focus on writing applications by automatically extracting metrics and distributed traces from their code.
+
 Be prepared for the next production issue with the best observability tools, without the
 overhead of instrumenting your code or taking care of collector agents.
 
