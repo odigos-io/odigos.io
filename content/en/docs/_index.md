@@ -1,6 +1,5 @@
-
 ---
-title: "Documentation"
+title: "Odigos Documentation"
 linkTitle: "Documentation"
 weight: 20
 menu:
@@ -8,17 +7,32 @@ menu:
     weight: 20
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+Welcome to the Odigos user guide! This guide shows you how to get started sending telemetry data such as traces, metrics and logs using Odigos.
 
+Odigos allows developers to focus on writing applications by automatically extracting metrics and distributed traces from their code.
+Be prepared for the next production issue with the best observability tools, without the
+overhead of instrumenting your code or taking care of collector agents.
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
+## Odigos in Short
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
+|                                      |                                                                                                                                               |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **🧑‍💻 Automatic instrumentation**     | Odigos detects the programming language of your applications and apply automatic instrumentation accordingly..                                |
+| **📖 Open Technologies**             | Observability pipelines created by Odigos are based on popular, battle tested, open source technologies. Specificlly, OpenTelemetry and eBPF. |
+| **⚖️ Scales with your data**         | Odigos scales the number of collectors based on the traffic of your applications. No need to manage complex collectors topology               |
+| **📈 No learning curve**             | Use advanced features like tail-based sampling without complex YAML configurations                                                            |
+| **✅ Best practices out of the box** | API key are saved as Kubernetes secrets, minimal collector images contains only relevant exporters and many more                              |
+| **☸️ Cloud Native**                  | Odigos is specially designed to instrument containers deployed in Kubernetes. Providing a natural experience to Kubernetes users.             |
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+## Who is Odigos for?
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+**Application developers** - focus on writing code. Odigos takes care of producing metrics ands traces for any open source library in use, without any code changes.
 
+**DevOps engineers** - Stop wasting time deploying and configuring collectors. Odigos automatically deploys and scales collectors for you, according to the current traffic of your applications.
 
+## Where do I start?
+
+{{% alert title="Get started with Odigos!" %}}
+Following this [guide](getting-started/) will just take a couple of minutes to complete:
+You will get automatic full observability for microservices application written in Go, Java, Python, and Node.js.
+{{% /alert %}}
