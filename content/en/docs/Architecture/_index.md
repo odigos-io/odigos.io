@@ -21,7 +21,7 @@ These tasks are performed by 4 microservices:
 - Scheduler
 - UI
 
-The different microservices communicate via Kubernetes API server (see [Custom Resources]() for more details).
+The different microservices communicate via Kubernetes API server (see [Custom Resources](/docs/custom-resources) for more details).
 
 The following diagram shows the architecture of the Odigos observability system.
 
@@ -61,4 +61,8 @@ The scheduler service assigns applications discovered by the instrumentor to the
 
 ## UI
 
-Odigos UI is a Next.js application that allows the user to control their observability needs. The UI is not accessible outside of the cluster, and in order to access to it the user should use port forwarding.
+Odigos UI is a Next.js application that allows the user to control their observability needs. The UI is not accessible outside of the cluster. In order to access to the UI the user should use port forwarding by executing the following command:
+
+```console
+kubectl port-forward svc/odigos-ui 3000:3000 -n odigos-system
+```
