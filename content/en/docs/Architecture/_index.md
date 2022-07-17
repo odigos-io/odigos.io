@@ -4,6 +4,10 @@ linkTitle: "Architecture"
 weight: 4
 ---
 
+{{% alert title="Odigos is still in beta" %}}
+Some of the features described in this document may not be available yet. APIs and custom resources may introduce breaking changes.
+{{% /alert %}}
+
 ## Goals
 
 Odigos acts as a control plane for all the observability needs in a cluster. It is responsible for:

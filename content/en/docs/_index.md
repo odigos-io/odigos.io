@@ -14,6 +14,8 @@ Odigos allows developers to focus on writing applications by automatically extra
 Be prepared for the next production issue with the best observability tools, without the
 overhead of instrumenting your code or taking care of collector agents.
 
+The name Odigos originates from Greek, meaning guide.
+
 ## Odigos in Short
 
 |                                      |                                                                                                                                               |
