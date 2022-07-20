@@ -7,14 +7,13 @@ menu:
     weight: 20
 ---
 
-Welcome to the Odigos user guide! This guide shows you how to get started sending telemetry data such as traces, metrics and logs using Odigos.
+Welcome to the Odigos user guide! We will show you how to get started sending telemetry data such as traces, metrics and logs within minutes, using Odigos.
 
-Odigos allows developers to focus on writing applications by automatically extracting metrics and distributed traces from their code.
+Odigos is an Open-Source Observability Control Plane that allows developers to easily create and build their observability pipelines, by abstracting away the complexities of technologies such as eBPF and OpenTelemetry.
 
-Be prepared for the next production issue with the best observability tools, without the
-overhead of instrumenting your code or taking care of collector agents.
+Every new line of code automatically gets metrics and distributed traces without intervention from the developer and with no code changes necessary. With Odigos, production issues can be resolved using the best observability tools available, without the overhead of instrumenting code or taking care of collector agents.
 
-The name Odigos originates from Greek, meaning guide.
+The name Odigos originates from Greek, meaning guide
 
 ## Odigos in Short
 
@@ -31,7 +30,7 @@ The name Odigos originates from Greek, meaning guide.
 
 **Application developers** - focus on writing code. Odigos takes care of producing metrics ands traces for any open source library in use, without any code changes.
 
-**DevOps engineers** - Stop wasting time deploying and configuring collectors. Odigos automatically deploys and scales collectors for you, according to the current traffic of your applications.
+**DevOps engineers** - Odigos automatically deploys and scales collectors for you, according to the current traffic of your applications. No need to spend time deploying and configuring collectors.
 
 ## Where do I start?
 
