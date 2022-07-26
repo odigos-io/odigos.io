@@ -22,6 +22,7 @@ Notice that sensitive fields such as API keys are stored in a Kubernetes secret 
 
 This object is used to define the applications that should be instrumented. There is a single InstrumentedApplication object per selected Deployment / StatefulSet. The InstrumentedApplication object holds information about the application that should be instrumented, such as the detected programming language. InstrumentedApplication objects are created and managed by the instrumentor.
 
-## Collector
+## CollectorsGroup
 
-This custom resource is used to define the collectors that will collect the observability data. The collector object is created and managed by the autoscaler service.
+The CollectorsGroup object is used to define a group of collectors that have a shared role.
+For example, a collectors group might include collectors that are deployed as DaemonSet that are responsible for collecting telemetry data, or collectors that are deployed as Deployment and are responsible for shipping the data to the selected destinations.
