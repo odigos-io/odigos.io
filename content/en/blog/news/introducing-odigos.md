@@ -1,6 +1,7 @@
 ---
 title: Introducing Odigos!
-linkTitle: Introducing
+linkTitle: Introducing Odigos
+date: 2022-07-26
 weight: 2
 ---
 
