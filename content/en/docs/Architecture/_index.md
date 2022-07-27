@@ -1,7 +1,7 @@
 ---
 title: "Architecture"
 linkTitle: "Architecture"
-weight: 4
+weight: 2
 ---
 
 {{% alert title="Odigos is still in beta" %}}

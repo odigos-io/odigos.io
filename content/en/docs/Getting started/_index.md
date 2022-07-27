@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 linkTitle: "Getting Started"
-weight: 2
+weight: 1
 ---
 
 In this tutorial we are going to use Odigos for getting automatic observability of a microservices application written in Go, Java, Python, .NET and Node.js. We will also send and explore all the collected data in Datadog.
