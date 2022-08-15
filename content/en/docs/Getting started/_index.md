@@ -18,6 +18,14 @@ To follow the guide, you need the following:
 - **Helm CLI**. We are going to install Odigos using a helm chart.
 - **A Datadog account with API key**. Go to [Datadog website](https://datadoghq.com) to create a new free account. In addition, create a new API key by navigating to _Organization settings_, then click on _API keys_, and create a new key.
 
+## Creating the Kubernetes cluster
+
+Create a new local Kubernetes cluster, by running the following command:
+
+```console
+kind create cluster
+```
+
 ## Deploying the target application
 
 We are going to install a fork of [microservices-demo](https://github.com/keyval-dev/microservices-demo), an example of e-commerce application created by Google.
