@@ -13,14 +13,14 @@ Offloading the job of sending data directly from the application can be a huge h
 
 The OpenTelemetry Collector is configurable. When tasked with deploying Collectors in a production environment, Devops team will find two repositories containing dozens of modules, with many integration possibilities. The problem is that it’s hard to know what module will best fit your changing requirements. Without proper implementation and continuous configuration of your collectors, observability tools will be limited at best and many times ineffectual
 
-![]()
+![Collectors Figure 1](figure1.png)
 
 There are solutions out there. Many of the large commercial observability tool vendors provide different open-source solutions that will ease implementation. Often, implementation will include vendor specific API’s that are not compatible with other tools, further complicating any efforts of working with more than one vendor.  
 Actual implementation and integration are still a lengthy process that requires knowledge and experience to get done right. It’s enough to take a quick look at the “getting started” pages of the different observability vendors out there to see how complicated this integration still is.
 
 Odigos, an open-source observability control plane just released in July ’22, provides auto-instrumentation as well as a collector management capabilities. The platform is actually comprised of four fundamental parts: an Instrumentor, Scheduler, Auto-scaler & the UI.
 
-![]()
+![Collectors Figure 2](figure2.png)
 
 This is the way it works:
 
