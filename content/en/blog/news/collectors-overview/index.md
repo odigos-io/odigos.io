@@ -1,6 +1,6 @@
 ---
-title: Managing collectors on K8 – why we chose the OpenTelemetry collector for Odigos
-linkTitle: Managing collectors on K8 – why we chose the OpenTelemetry collector for Odigos
+title: Managing collectors on K8s – why we chose the OpenTelemetry collector for Odigos
+linkTitle: Managing collectors on K8s – why we chose the OpenTelemetry collector for Odigos
 date: 2022-08-25
 weight: 4
 ---
