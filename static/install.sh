@@ -332,7 +332,7 @@ hash_sha256_verify() {
 }
 
 PROJECT_NAME="odigos"
-OWNER=edeNFed
+OWNER=keyval-dev
 REPO="odigos"
 BINARY=odigos
 FORMAT=tar.gz
