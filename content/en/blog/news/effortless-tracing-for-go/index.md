@@ -25,7 +25,7 @@ One of the reasons implementation has been prolonged, is that distributed tracin
 
 In addition to context propagation this version introduces the following improvements:
 
-- Removed dependency on goroutine id: The previous versions used goroutine id to correlate spans. Following feedback from the community that this is not an id we should count on, this version does not use goroutine id anymore. Instead, we are not using the `context.Context` object for span correlations. This is similar to how it happens when you write manual instrumentation and is much more stable.
+- Removed dependency on goroutine id: The previous versions used goroutine id to correlate spans. Following feedback from the community that this is not an id we should count on, this version does not use goroutine id anymore. Instead, we are now using the `context.Context` object for span correlations. This is similar to how it happens when you write manual instrumentation and is much more stable.
 - More accurate timestamps: We improved the way we calculate the start and end timestamps of every span.
 - Bug fixes and performance improvements.
 
