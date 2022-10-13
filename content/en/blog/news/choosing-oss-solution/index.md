@@ -1,6 +1,6 @@
 ---
-title: Odigos – your gateway to choosing an end-to-end open-source APM
-linkTitle: Odigos – your gateway to choosing an end-to-end open-source APM
+title: Odigos - allowing a choice between the 5 leading open-source observability backends
+linkTitle: Odigos - allowing a choice between the 5 leading open-source observability backends
 date: 2022-10-13
 weight: 6
 ---
@@ -15,7 +15,7 @@ Enter Odigos – an open-source, agnostic observability control plane that autom
 
 Being big believers, supporters, and maintainers in the open-source community, Odigos is happy to announce that we are **now integrated with five open-source observability tools vendors.**
 
-**Prometheus, Jaeger, Loki, Grafana & Signoiz** are all now supported by Odigos and can be installed within minutes.
+**Prometheus, Jaeger, Loki, Tempo & Signoiz** are all now supported by Odigos and can be installed within minutes.
 
 ## What does this mean
 
@@ -29,7 +29,7 @@ It means companies have **a choice** of vendors when implementing an end-to-end 
 | Jaeger     | ✅     |         |      |
 | SigNoz     | ✅     | ✅      | ✅   |
 
-Additionally, it’s now easy for companies can work with more than one Observability vendor. Do you like Prometheus for you Metrics but want to use Grafana Cloud for your distributed tracing? Not a problem. As the industry continues to grow and observability becomes ubiquitous, additional tools with new functionality are flourishing (Security, etc.) and we expect companies in the future to use more the one observability vendors.
+Additionally, it’s now easy for companies can work with more than one Observability vendor. Do you like Prometheus for you Metrics but want to use Tempo for your distributed tracing? Not a problem. As the industry continues to grow and observability becomes ubiquitous, additional tools with new functionality are flourishing (Security, etc.) and we expect companies in the future to use more the one observability vendors.
 
 This is just a first step. Odigos will continue to integrate open-source solutions, allowing our customers a gateway to choose the solution that best fits their needs. As additional functionality is developed, Odigos will continue supporting multiple vendors enabling companies to prepare and take advantage of the new observability-based solutions being developed
 
