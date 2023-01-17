@@ -1,0 +1,29 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Observability Control Plane" id="intro">
+  <img slot="eyebrow" src="odigos.svg" alt="Odigos logo" class="h-32" />
+  <Fragment slot="lead">
+    Enhance your <span class="text-primary"> existing monitoring tools</span> with distributed traces. <span class="text-primary">Without Code Changes</span> 
+  </Fragment>
+  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <a
+      href="https://docs.odigos.io"
+      target="_blank"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="telescope" class="h-8" />
+      <span>Quickstart</span>
+    </a>
+    <a
+      href="https://github.com/keyval-dev/odigos"
+      target="_blank"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="github" class="h-8" />
+      <span>GitHub Repo</span>
+    </a>
+  </div>
+</ContentSection>

@@ -1,0 +1,64 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+import type { FeatureItem } from "~/types";
+
+const features: Array<FeatureItem> = [
+  {
+    title: "Boost Your Existing Tools",
+    description:
+      "Odigos supports the leading vendors and open source backends. Keep using the tools you use today, with higher-quality data",
+    icon: "mdi:handshake",
+  },
+  {
+    title: "Works On Any Application",
+    description:
+      "Odigos is the only solution that automatically instruments compiled languages (like Go)",
+    icon: "mdi:shimmer",
+  },
+  {
+    title: "No Code Changes",
+    description:
+      "Get started in minutes, without having to change a single line of code. Just select an observability backend and that's it",
+    icon: "mdi:timer",
+  },
+  {
+    title: "Observability By Default",
+    description:
+      "Automatically get traces, metrics and logs for every new deployed application. No more blind spots",
+    icon: "mdi:binoculars",
+  },
+  {
+    title: "Community",
+    description:
+      "Odigos is developed together with the community. Parts of Odigos are contributed to OpenTelemetry and eBPF",
+    icon: "mdi:account-group",
+  },
+  {
+    title: "Collectors Management",
+    description:
+      "Scale the number of collectors based on the traffic of your applications. No need to manage complex collectors topology",
+    icon: "mdi:dots-hexagon",
+  },
+];
+---
+
+<ContentSection title="Features" id="features">
+  <Fragment slot="lead">
+    Odigos <span class="text-primary">automatically instruments </span>any application
+    and <span class="text-primary">manages</span> OpenTelemetry collectors
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {
+      features.map(({ title, description, icon }) => (
+        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <Icon name={icon} />
+          </div>
+          <p class="text-center font-extrabold text-xl">{title}</p>
+          <p class="text-center text-offset text-sm">{description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</ContentSection>

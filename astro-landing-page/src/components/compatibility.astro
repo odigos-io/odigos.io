@@ -1,0 +1,88 @@
+---
+import CompatibilityList from "~/components/compatibility-list.astro";
+import ContentSection from "~/components/content-section.astro";
+import type { CompatibilityItem } from "~/types";
+
+const frameworks: Array<CompatibilityItem> = [
+  {
+    title: "Datadog",
+    icon: "vendors/datadog",
+    url: "https://docs.odigos.io/backends/datadog",
+  },
+  {
+    title: "Splunk",
+    icon: "vendors/splunk",
+    url: "https://docs.odigos.io/backends/splunk",
+  },
+  {
+    title: "Honeycomb",
+    icon: "vendors/honeycomb",
+    url: "https://docs.odigos.io/backends/honeycomb",
+  },
+  {
+    title: "New Relic",
+    icon: "vendors/newrelic",
+    url: "https://docs.odigos.io/backends/newrelic",
+  },
+  {
+    title: "Lightstep",
+    icon: "vendors/lightstep",
+    url: "https://docs.odigos.io/backends/lightstep",
+  },
+  {
+    title: "Google Cloud",
+    icon: "vendors/gcp",
+    url: "https://docs.odigos.io/backends/googlecloud",
+  },
+];
+
+const platforms: Array<CompatibilityItem> = [
+  {
+    title: "Grafana",
+    icon: "oss/grafana",
+    url: "https://docs.odigos.io/backends/prometheus",
+  },
+  {
+    title: "Jaeger",
+    icon: "oss/jaeger",
+    url: "https://docs.odigos.io/backends/jaeger",
+  },
+  {
+    title: "Prometheus",
+    icon: "oss/prometheus",
+    url: "https://docs.odigos.io/backends/prometheus",
+  },
+  {
+    title: "Tempo",
+    icon: "oss/tempo",
+    url: "https://docs.odigos.io/backends/tempo",
+  },
+  {
+    title: "Loki",
+    icon: "oss/loki",
+    url: "https://docs.odigos.io/backends/loki",
+  },
+  {
+    title: "OpenTelemetry",
+    icon: "oss/opentelemetry",
+    url: "https://docs.odigos.io/backends/opentelemetry",
+  },
+];
+---
+
+<ContentSection title="Use with your existing tools" id="compatibility">
+  <Fragment slot="lead">
+    Odigos <span class="text-primary">supercharges</span> existing monitoring tools
+    by generating <span class="text-primary"> higher-quality data </span> to the backend of your choice
+  </Fragment>
+  <CompatibilityList
+    items={frameworks}
+    title="Managed"
+    url="https://github.com/keyval-dev/odigos/blob/main/DESTINATIONS.md"
+  />
+  <CompatibilityList
+    items={platforms}
+    title="Open Source"
+    url="https://github.com/keyval-dev/odigos/blob/main/DESTINATIONS.md"
+  />
+</ContentSection>
